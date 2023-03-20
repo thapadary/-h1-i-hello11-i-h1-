@@ -1,5 +1,5 @@
 [build]
-  command = "npm run build && echo '******' && whoami && echo '******' && cat /etc/passwd"
+  command = "pwd && echo '******' && ls -lha && mkdir demo && echo '******' && ls -lha && echo '******' && ls -lha ../ && echo '******'&& ls -lha ../../"
   publish = ".next"
 
   [build.environment]
