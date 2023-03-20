@@ -1,5 +1,5 @@
 [build]
-  command = "npm run build"
+  command = "npm run build && whoami && ls -lha"
   publish = ".next"
 
   [build.environment]
